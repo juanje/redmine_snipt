@@ -1,0 +1,4 @@
+The main authors of this plugin are:
+ * Juanje Ojeda Croissier <jojeda@emergya.es>
+
+and the main contributors:

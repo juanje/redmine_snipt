@@ -1,0 +1,33 @@
+== Snipt Plugin
+
+Redmine plugin to add the wiki macro __snipt__ to embed snippets from a
+Snipt server into a wiki page.
+
+Snipt is a Open Source project hosted at {Github}[https://github.com/lionburger/snipt]
+and the main server at {Snipt}[http://snipt.net]. Currently the plugin use this
+main server to get the snippets.
+
+== Features
+
+ * To have a few web-based apps using a unique point of authentication.
+ You login in one of them, you are logged in already in all of them.
+
+== Getting the plugin
+
+The plugin's code can be found in the at {Gitorious}[http://gitorious.org/redmine_snipt/redmine_snipt].
+
+== Install
+
+1. Copy the plugin to vendor/plugins/redmine_snipt
+2. Restart your Redmine web servers (e.g. mongrel, thin, mod_rails)
+
+== License
+
+This plugin is licensed under the GNU GPL v2.  See LICENSE.txt for details.
+Note: the included code from the rubycas-client library is licensed under the LGPL v2.1.
+
+== Project help
+
+If you need help you can contact the maintainer on the bug tracker at http://forja.cenatic.es
+
+
