@@ -9,8 +9,8 @@ main server to get the snippets.
 
 == Features
 
- * To have a few web-based apps using a unique point of authentication.
- You login in one of them, you are logged in already in all of them.
+ * Embed a plugin hosted at http://snipt.net into a Redmine's wiki page.
+ * Link with the original ne at snitp.net.
 
 == Getting the plugin
 
@@ -20,6 +20,13 @@ The plugin's code can be found in the at {Gitorious}[http://gitorious.org/redmin
 
 1. Copy the plugin to vendor/plugins/redmine_snipt
 2. Restart your Redmine web servers (e.g. mongrel, thin, mod_rails)
+
+== Usage
+
+For using the feature you need to add the wiki macro __snipt__ with the
+snipt id at the Snipt server (i.e. http://snipt.net).
+For example:
+{{snipt(21884)}}
 
 == License
 
